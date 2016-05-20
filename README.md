@@ -1,6 +1,6 @@
 # Arduino Tutorial - MasseyHacks II
 
-This tutorial will occur in 3 steps
+This tutorial will occur in 3 major steps
 
 ## Blinking Lights
 #### Breadboard Layout
@@ -100,5 +100,6 @@ void loop() {
 
 ## Functioning Traffic Light
 #### Breadboard Layout
-
+![Functioning Traffic Light Breadboard Layout](http://github.com/MasoudH/arduino-tutorial/tree/master/Traffic_Light/img/breadboard.JPG)
 #### Code
+Code is availble for download /Traffic_Light/Traffic_Light.ino
