@@ -7,7 +7,7 @@ This tutorial will occur in 3 steps
 
 ## Blinking Lights
 #### Breadboard Layout
-![Blinking Light Breadboard Layout](https://raw.githubusercontent.com/MasoudH/arduino-tutorial/master/Blinking_Light/img/breadboard.JPG)
+![Blinking Light Breadboard Layout](http://github.com/MasoudH/arduino-tutorial/tree/master/Blinking_Light/img/breadboard.JPG)
 #### Code
 
 
