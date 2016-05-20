@@ -1,7 +1,12 @@
+// Masoud Harati and Dilpreet Chana
+// Traffic_Light.ino
+// May 20, 2016
+// MasseyHacks II tutorial for blinking lights
+
 void setup() {
-  pinMode(11, OUTPUT); // Output for Green Light
-  pinMode(12, OUTPUT); // Output for Yellow Light
-  pinMode(13, OUTPUT); // Output for Red Light
+  pinMode(11, OUTPUT); // Output pin for Green Light
+  pinMode(12, OUTPUT); // Output pin for Yellow Light
+  pinMode(13, OUTPUT); // Output pin for Red Light
 }
 
 void loop() {
