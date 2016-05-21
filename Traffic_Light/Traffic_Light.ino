@@ -3,16 +3,15 @@ int B1State = 0;
 
 int LightFrame = 0;
 
-// const String CorrectPassword = "01000100";
-const String CorrectPassword = "00000000";
+const String CorrectPassword = "01000100";
 String AttemptedPassword = "";
 
 bool IsButtonRegistered = false;
 bool Cycling = false;
 
 void setup() {
-  pinMode(2, INPUT);
-  pinMode(4, INPUT);
+  pinMode(2, INPUT); // Button 1
+  pinMode(4, INPUT); // Button 2
 
   pinMode(11, OUTPUT);  // Green
   pinMode(12, OUTPUT);  // Yellow
@@ -23,8 +22,8 @@ void setup() {
 
 void loop() {
   while (AttemptedPassword.length() < 8) {
-    B0State = digitalRead(2);
-    B1State = digitalRead(4);
+    B0State = digitalRead(2); // State Button 1
+    B1State = digitalRead(4); // State Button 2
     
     if (B0State == 0 && B1State == 0) {
       IsButtonRegistered = false;
